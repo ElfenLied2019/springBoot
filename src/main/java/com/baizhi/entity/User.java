@@ -43,4 +43,7 @@ public class User implements Serializable {
                 ", password='" + password + '\'' +
                 '}';
     }
+    public void outFile(String s){
+        System.out.print(s+" 啊！我死了"); 
+    }
 }
